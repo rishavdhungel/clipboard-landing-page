@@ -154,4 +154,88 @@
 }
 /* Fourth Section End */
 
+/* ThreeCards Section Start */
+
+.threeCards{
+    display: flex;
+    text-align: center;
+}
+
+.threecardsimg{
+    margin: 1px auto;
+}
+.cardTitle{
+    color: var(--DarkGrayishBlue);
+    font-weight: 600;
+}
+
+.cardDetails{
+    width: 60%;
+    margin: 5px auto;
+    font-weight: 400;
+}
+
+/* ThreeCards Section End */
+
+/* Logo  Container Start  */
+.logoContainer{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Logo Container End */
+
+/* EndContainer Start  */
+
+.endContainer{
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    color: var(--DarkGrayishBlue);
+    text-align: center;
+}
+.endTitle{
+    font-weight: 600;
+    font-size: 2rem; 
+}
+
+.endDetails{
+    font-weight: 400;
+    width: 50%;
+    margin: 20px auto 50px;
+}
+
+/* End Container End */
+
+
+/* Footer Start  */
+.footerSection{
+    margin-top:150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: var(--GrayishBlue);
+    color: var(--DarkGrayishBlue);
+    padding: 50px;
+    font-weight: 400;
+}
+
+.footerRow-1 img{
+    width: 50px;
+    height: 50px;
+}
+.footerRow-5{
+    display: flex;
+    float: left;
+
+}
+.fa{
+    text-decoration: none;
+    margin: 5px;
+    color: var(--DarkGrayishBlue);
+}
+
+/* Footer End  */
+
 
