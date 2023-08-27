@@ -1,2 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root{
+/* ### Primary */
+--StrongCyan: hsl(171, 66%, 44%);
+--LightBlue: hsl(233, 100%, 69%);
+/* ### Neutral */
+--DarkGrayishBlue: hsl(210, 10%, 33%);
+--GrayishBlue: hsl(201, 11%, 66%);
+
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.heroLogo{
+    margin:50px auto 10px;
+    width: 100px;
+    height: 100px;
+}
+.heroTitle{
+    width: 60%;
+    margin: 10px auto 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--DarkGrayishBlue);
+}
+
+.heroDetails{
+    width: 40%;
+    margin: 10px auto 30px;
+    text-align: center;
+    font-weight: 400;
+    color: var(--GrayishBlue);
+}
+.herobtn{
+    display: flex;
+    gap: 10px;
+    margin:10px auto;
+}
+
+.btn-1, .btn-2{
+    width: 200px;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn-1{
+    border: 1px solid var(--StrongCyan);
+    background-color: var(--StrongCyan);
+    box-shadow: 5px 5px 10px var(--StrongCyan);
+}
+
+.btn-2{
+    border: 1px solid var(--LightBlue);
+    background-color: var(--LightBlue);
+    box-shadow: 5px 5px 10px var(--LightBlue);
+}
+
