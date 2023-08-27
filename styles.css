@@ -123,7 +123,35 @@
 }
 
 
-
-
 /* Third Section End */
+
+/* Fourth Section Start */
+.fourthSection{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: var(--DarkGrayishBlue);
+    text-align: center;
+}
+
+.deviceimg{
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+}
+
+.fourthTitle{
+    color: var(--DarkGrayishBlue);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.fourthDetails{
+    width: 50%;
+    margin:15px auto;
+    font-weight: 400;
+    
+}
+/* Fourth Section End */
+
 
