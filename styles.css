@@ -70,3 +70,60 @@
     box-shadow: 5px 5px 10px var(--LightBlue);
 }
 
+
+/* Second Section Start */
+.secondSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--DarkGrayishBlue);
+    text-align: center;
+}
+.secondTitle{
+    margin: 10px auto;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.secondDetails{
+    width: 45%;
+    margin:10px auto;
+
+}
+/* Second Section End */
+
+/* Third Section Start */
+.thirdSection{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.desktopimg{
+    width:50% ;
+    height: 50%;
+}
+
+.thirdFlex{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 40px;
+    color: var(--DarkGrayishBlue);
+}
+
+.itmHeading{
+    font-weight: 600;
+}
+
+.itmdetails{
+    font-weight: 400;
+}
+
+
+
+
+/* Third Section End */
+
