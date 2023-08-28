@@ -239,3 +239,29 @@
 /* Footer End  */
 
 
+/* Mobile View adjustment */
+@media(max-width:492px){
+
+    .hero{
+        background-image: url(./images/bg-header-mobile.png);
+        background-size: contain;
+        height: min-content;
+        background-repeat: no-repeat;
+        width: 100%;
+
+    }
+
+    .herobtn,.secondSection, .thirdSection,.threeCards{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoContainer,.footerSection{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 50px;
+    }
+}
